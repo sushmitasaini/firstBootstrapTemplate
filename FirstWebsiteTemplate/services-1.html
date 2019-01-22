@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,700,500" rel="stylesheet" type="text/css" />
+<style>
+          .sectionBackground{
+                background-image: url(image-5.png);
+                background-attachment: fixed;
+                background-position: 50% 100%;
+                background-repeat: no-repeat;
+		padding-top: 230px;
+		padding-bottom: 230px;
+           }
+.navbar {
+   background-color: rgba(51, 51, 51, 0.0);
+   background: rgba(51, 51, 51, 0.0);
+   border-color: rgba(51, 51, 51, 0.0);
+   color: FFFFFF;
+}
+
+.navbar li { font-size: 17px;
+font-family: Roboto google;
+color: #FFFFFF; 
+      }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #99FFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.text{ 
+font-family: en;
+font-size: 10px;
+line-height: 1.428;
+color: black;
+} 
+h1 {
+color: black;
+text-align: center;
+margin-left: 50 px;
+color: #99FFFF;
+'font-family': 'Roboto', sans-serif;
+}
+h3{
+text-align: center;
+color: #99FFFF;
+'font-family': 'Roboto', sans-serif;
+}
+h6{
+text-align: center;
+padding: 10px;
+font-size: 15px;
+color: 	#99FFCC;
+'font-family': 'Roboto', sans-serif;
+{
+</style>
+</head>
+
+<body>
+	<nav id="Header" class="navbar navbar-default navbar-fixed-top" style="background-color: rgba(0, 0, 0, 0); border-color:rgba(0, 0, 0, 0);">
+            <div class="container" style="padding-left: 10px">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="page-scroll" href="http://tantransha.com" style="padding-left: 7px">
+                        <p style="font-family: 'Pacifico', cursive; font-size:35px; color:white">Annie</p></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-top: 7px">
+                    <ul class="nav navbar-nav navbar-right" style="text-align: center; font-size: 12px">
+                        <li style="padding-top: 5px">
+                            <a class="page-scroll hvr-grow" href="#homeSection" style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white; font-weight:700">Home</a>
+                        </li>
+						<li style="padding-top: 5px">
+                            <a class="page-scroll hvr-grow" href="#serviceSec" style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white; font-weight:700">Services</a>
+                        </li>
+						<li style="padding-top: 5px">
+                            <a class="page-scroll hvr-grow" href="#homeSection" style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white; font-weight:700">About</a>
+                        </li>
+						<li style="padding-top: 5px">
+                            <a class="page-scroll hvr-grow" href="#homeSection" style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white; font-weight:700">Testimonial</a>
+                        </li>
+						<li style="padding-top: 5px">
+                            <a class="page-scroll hvr-grow" href="#homeSection" style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white; font-weight:700">Work</a>
+                        </li>
+						<li style="padding-top: 5px">
+                            <a class="page-scroll hvr-grow" href="#homeSection" style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white; font-weight:700">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+<section class="sectionBackground">
+<div class="container">
+<div class="row">
+<div class="col-sm-8 col-sm-offset-2" style="padding: 20px; background-color: rgba(51, 51, 51, 0.8); border-radius: 20px">
+<div class="col-sm-12" align="center"><h2 style="color: #99FFFF; 'font-family': 'Roboto', sans-serif; font-size: 30px; ">Search Anything, Anytime, Anywhere</h2></div>
+<div class="col-sm-4" align="center" style="padding: 20px">
+    <div class="form-group">        
+        <input type="location" class="form-control" id="loc" placeholder="Enter your location">
+      </div>
+</div>
+<div class="col-sm-4" align="center"style="padding: 12px; font-family: Roboto google ">
+  <form action="action_page.php">
+    <select id="service" name="place" style="padding: 8px;">
+      <option value="categories" style="color: #707070 ">Categories</option>
+      <option value="AC Repair" style="color: #707070 ">AC Repair</option>
+      <option value="tutor" style="color: #707070 ">Tutor</option>
+      <option value="Plumber" style="color: #707070 ">Plumber</option>
+      <option value="Electrician" style="color: #707070 ">Electrician</option>
+    </select>
+</div>
+<div class="col-sm-4" align="center" style="padding-top: 21px; padding-bottom: 11px ">
+<button type="button" class="btn btn-info" style="font-family: 'Roboto', sans-serif; font-size: 14px; width:100%">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="text" style="padding-top: 150px; background-color: black">				
+<div class="container-fluid" style="background: black">
+
+<div class="row">
+   <div class="col-sm-12"><h1 style="font-size: 40px; 'font-family': 'Roboto', sans-serif;">Services We Offer</h1></div>
+   <div class="col-sm-2 col-sm-offset-5" style="background-color: yellow"></div>
+<div class="col-sm-12" style="padding: 70px">
+<div class="col-sm-4" align="center">
+<p <span class="glyphicon glyphicon-cloud" style="font-size: 70px; color: #CCFFFF"></span></p>
+<h3>Cloud Backup</h3>
+<h6>We provide complete secure cloud based backup for your data.</h6><br></div>
+<div class="col-sm-4" align="center">
+<p <span class="glyphicon glyphicon-globe" style="font-size: 70px; color:#CCFFFF"></span></p>
+<h3>Across Globe</h3>
+<h6>Our service is available across the globe, to make your life better.</h6><br></div>
+<div class="col-sm-4" align="center">
+<p <span class="glyphicon glyphicon-hdd" style="font-size: 70px; color: #CCFFFF"></span></p>
+<h3>Unlimited Space</h3>
+<h6>We provide unlimited space for your data with high bandwidth data transfer.</h6><br></div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-4" align="center">
+<p <span class="glyphicon glyphicon-facetime-video" style="font-size: 70px; color: #CCFFFF"></span></p>
+<h3>Video Support</h3>
+<h6>We provide video technical support for our customers which is totally based on HTML5.</h6><br></div>
+<div class="col-sm-4" align="center">
+<p <span class="glyphicon glyphicon-share-alt" style="font-size: 70px; color: #CCFFFF"></span></p>
+<h3>Data Sharing</h3>
+<h6>Our customer can share their data with one another by simple using share property.</h6><br></div>
+<div class="col-sm-4" align="center">
+<p <span class="glyphicon glyphicon-print" style="font-size: 70px; color: #CCFFFF"></span></p>
+<h3>Easy Print</h3>
+<h6>You can take print from anywhere of your data by using easy print option.</h6><br></div>
+</div>
+</div>
+<div class="container-fluid" style="background-color: #303030">
+<div class="row">
+<div class="col-sm-12" style="padding-top: 30px; padding-bottom: 40px">
+<h1>About</h1></div>
+<div class="col-sm-6" style="padding:100px;line-height: 1px">
+<h2 align="left">Search Anything</h2><br>
+<h4>you can search anyhting whatever you want</h4><br>
+<h2 align="left">Search Anywhere</h2><br>
+<h4>you can search anything whatever you want from anywhere</h4><br>
+<h2 align="left">Search Anytime</h2><br>
+<h4>you can search anything whatever you want from anywhere at anytime</h4>
+</div>
+<div class="col-sm-6" style="padding: 80px">
+<iframe width="420" height="345"
+src="http://www.youtube.com/embed/XGSy3_Czz8k">
+</iframe>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
+  </nav>
+	<nav class="navbar navbar-fixed-top" style="padding: 10px">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+                    <a class="page-scroll" href="http://tantransha.com" style="padding-left: 7px">
+                        <p style="font-family: 'Pacifico', cursive; font-size:35px; color:white; padding-left: 40px">Annie</p></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="background-color: rgba(51, 51, 51, 0.0)">
+      <ul class="nav navbar-nav navbar-right" >
+        <li class="active" style="color: #FFFFFF"><a href="#" style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white; font-weight:700">Home</a></li>
+          <li class="active"><a href="#" style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white; font-weight:700">About</a></li>
+            <li class="active"><a href="#" style="font-family: 'Roboto', sans-serif; font-size: 16px; color: white; font-weight:700">Services</a></li>
+            <li class="active"><a href="#" style="font-family: 'Roboto', sans-serif; font-size: 16px; color: white; font-weight:700">Testimonials</a></li>
+            <li class="active"><a href="#" style="font-family: 'Roboto', sans-serif; font-size: 16px; color: white; font-weight:700">Work</a></li>
+            <li class="active"><a href="#" style="font-family: 'Roboto', sans-serif; font-size: 16px; color: white; font-weight:700">Contacts</a></li>
+          </ul>
+      </div>
+</nav>
